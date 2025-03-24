@@ -46,7 +46,7 @@ function App() {
           type="text"
           value={sortField}
           onChange={(e) => setSortField(e.target.value.toLowerCase())}
-          placeholder="Enter a sort field" // Add this line
+          placeholder="Enter a sort field"
         />
         <ul>
           {users.map((user) => (
